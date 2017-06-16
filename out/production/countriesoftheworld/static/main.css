@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,300,100,700);
+
+
+* {
+    box-sizing: border-box;
+ }
+
+body {
+	margin: 0;
+	font-family: 'PT Serif', serif;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+a: link {
+    color: black;
+}
+
+a:active {
+       color: red;
+   }
+
+
+
+
+h1 {
+
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 15px;
+  text-shadow: 2px 2px 2px white;
+  margin-bottom: 10px;
+}
+
+
+header h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+header img {
+  max-width: 100%;
+}
+
+  h2 {
+   	text-transform: uppercase;
+   	color: #444;
+   	font-size: 1.5rem;
+   	margin-top: 0;
+   	margin-bottom: 3%;
+   	margin-left: 20px;
+   	padding-top: 30px;
+   	display: inline-block;
+   }
+
+
+
+    h4 {
+       	font-size: 24px;
+      	display: inline-block;
+      	font-style: italic;
+      	margin-right: 20px;
+      }
+
+     span {
+
+        font-size: 32px;
+    }
+
+
+
+   footer {
+       padding-top: 15px;
+       padding-bottom: 15px;
+       background-color:#318aa0;
+   }
+
+
+
+
+    .main-header {
+        background-color: blue;
+        padding-top: 400px;
+	    background-image: url("/images/world.jpg");
+	    background-repeat:no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	    margin-bottom: 20px;
+   }
+
+   .menu {
+     padding: 0 9px 3px;
+     margin-top: 20px;
+     display: inline-block;
+     text-decoration: none;
+     color: white;
+     background-color:#318aa0;
+
+   }
+
+
+
+   .sort-menu {
+         margin-bottom: 60px;
+         margin-left: 5%;
+    }
+
+    .container {
+    	margin-top: 20px;
+    	margin-left: 5%;
+    }
+
+
+    .country {
+    	padding: 5px;
+    	margin-bottom: 20px;
+    }
+
+    .flag {
+        border: 1px solid black;
+        width: 120px;
+        height: 80px;
+        float: left;
+     }
+
+
+    .country-container {
+        margin-top: 60px;
+/*        background-color: black;
+        color: white;*/
+        padding: 10px;
+        margin-left:15%;
+        margin-right:15%;
+
+    }
+
+
+
+   .title-container {
+     margin-top: 5px;
+     padding: 10px;
+     border-bottom: 2px solid black;
+     height:160px;
+    }
+
+
+
+
+   .title-container img {
+   	         border: 1px solid black;
+             width: 200px;
+             height:140px;
+             float: left;
+             margin-left:2%;
+    }
+
+   .title-container h2 {
+        font-size: 48px;
+        color: black;
+        font-weight: bold;
+
+   }
+
+
+   .details-container {
+       margin-top: 20px;
+       padding: 20px;
+    }
+
+
+
+
+
+
+
+
